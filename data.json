@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Form",
+      "description": "This project created a interactive form that had required fields and was mobile responsive.",
+      "technologies": [ "html", "css" ],
+      "live_link": "http://jamesbraun.net/project-three/index.html",
+      "github_link": "https://github.com/james-braun/techdegree-project-three",
+      "image_urls": [ "/static/img/me.jpg", "/static/img/form.jpg", "/static/img/form-large.jpg" ]
+    },
+    {
+      "id": 1,
+      "project_name": "Picture Search",
+      "description": "This project using JavaScript created a searchable database of pictures that included Lightbox functionality and was mobile responsive.",
+      "technologies": [ "html", "css", "jquery" ],
+      "live_link": "http://jamesbraun.net/project-four/index.html",
+      "github_link": "https://github.com/james-braun/techdegree-project-four-second-try",
+      "image_urls": [ "/static/img/me.jpg", "/static/img/picture-search.jpg", "/static/img/picture-search-large.jpg" ]
+    },
+    {
+      "id": 2,
+      "project_name": "Video Player",
+      "description": "This project created a video player that highlighted portions of text of a script while the video played.  The user could click on different areas of the script to highlight and play that part of the script. the design was mobile responsive",
+      "technologies": [ "html", "css", "jquery" ],
+      "live_link": "http://jamesbraun.net/project-six/index.html",
+      "github_link": "https://github.com/james-braun/techdegree-project-six",
+      "image_urls": [ "/static/img/me.jpg", "/static/img/video.jpg", "/static/img/video-large.jpg" ]
+    },
+    {
+      "id": 3,
+      "project_name": "Phrase Hunter",
+      "description": "This project created a object oriented JavaScript word guessing game.",
+      "technologies": [ "html", "css", "JavaScript", "OOP" ],
+      "live_link": "http://jamesbraun.net/project-seven/index.html",
+      "github_link": "https://github.com/james-braun/techdegree-project-seven",
+      "image_urls": [ "/static/img/me.jpg", "/static/img/phrase-hunter.jpg", "/static/img/phrase-hunter-large.jpg" ]
+    },
+    {
+      "id": 4,
+      "project_name": "Employee Directory",
+      "description": "This Project using JavaScript created a searchable employee directory using a third-party API that was mobile responsive.",
+      "technologies": [ "html", "css", "JavaScript", "jquery"],
+      "live_link": "http://jamesbraun.net/project-ten/index.html",
+      "github_link": "https://github.com/james-braun/techdegree-project-ten",
+      "image_urls": [ "/static/img/me.jpg", "/static/img/directory.jpg", "/static/img/directory-large.jpg" ]
+    }
+  ]
+}
