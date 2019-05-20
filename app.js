@@ -32,9 +32,12 @@ app.get('/project/:id', (req, res, next) => {
     // of the project to be served.
     const id = req.params.id;
 
+    // create a regular expression to test for project existance.
+    var regularExpression = new RegExp(`^[0-${data.projects.length - 1}]$`)
+
     // if user tries to go to a project that doesn't exist
     // throw an error otherwise render the project.
-    if (/^[0-4]$/.test(id)) {
+    if (regularExpression.test(id)) {
         res.render('project', { data, id });
     } else {
         const err = new Error('404 - Path Not Found');

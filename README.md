@@ -2,6 +2,7 @@
 1. changed the font from Merriweather to Roboto.
 2. added an error class to format the error output.
 3. made the following changes to the end of the CSS file:
+
 .error {
     text-align: center;
     max-width: 75%;
