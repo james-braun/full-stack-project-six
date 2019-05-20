@@ -1,6 +1,6 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', serif;
 }
 
   h5{
@@ -152,4 +152,36 @@ a:hover{
 .error {
     text-align: center;
     max-width: 75%;
+}
+
+body {
+    background-color: coral;
+}
+
+#my-info {
+    background-color: brown;
+}
+
+.button {
+    background-color: brown;
+}
+
+.text-light {
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6,a,p {
+    color: white;
+}
+
+.portfolio-me a {
+    color: white;
+}
+
+.cell li {
+    color: white;
+}
+
+.cell .text-light {
+    color: white;
 }
