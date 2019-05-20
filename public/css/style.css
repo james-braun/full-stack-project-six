@@ -148,3 +148,8 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+.error {
+    text-align: center;
+    max-width: 75%;
+}

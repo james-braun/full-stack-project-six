@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\example-html",
+    "\\mockups",
+    "\\public",
+    "\\public\\css",
     "\\views"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\public\\css\\style.css",
   "PreviewInSolutionExplorer": false
 }

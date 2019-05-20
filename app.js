@@ -54,8 +54,8 @@ app.use((req, res, next) => {
 });
 
 // use 'error handling function' to print
-// error to the console and redirect to 
-// home page.
+// error to the console and render 
+// error page.
 app.use((err, req, res, next) => {
 
     // create an error status code
@@ -63,7 +63,7 @@ app.use((err, req, res, next) => {
 
     // create an error page.
     console.log(err);
-    res.redirect('/');
+    res.render('error', { data, err });
 });
 
 // sets up the development server.
