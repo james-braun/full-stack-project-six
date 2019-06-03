@@ -65,7 +65,7 @@ app.use((err, req, res, next) => {
     res.status(err.status);
 
     // create an error page.
-    console.log(err);
+    console.log('There hs been a ' + err.status + ' error');
     res.render('error', { data, err });
 });
 
