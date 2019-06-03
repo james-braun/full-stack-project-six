@@ -1,12 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\example-html",
-    "\\mockups",
-    "\\public",
+    "\\Local settings (.vs)\\full-stack-project-six",
     "\\public\\css",
+    "\\public\\img",
+    "\\public\\js",
+    "\\public\\js\\vendor",
+    "\\routes",
     "\\views"
   ],
-  "SelectedNode": "\\app.js",
+  "SelectedNode": "\\routes\\index.js",
   "PreviewInSolutionExplorer": false
 }
