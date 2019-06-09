@@ -6,6 +6,10 @@ const express = require('express');
 // creates an express application.
 const app = express();
 
+var favicon = require('serve-favicon');
+var path = require('path');
+app.use(favicon(path.join(__dirname, 'public/img/favicon_io', 'favicon.ico')))
+
 // includes data file.
 const data = require('./data.json');
 
@@ -38,7 +42,7 @@ app.use((err, req, res, next) => {
     res.status(err.status);
 
     // create an error page.
-    console.log('There has been a ' + err.status + ' error');
+    console.log(err.message);
     res.render('error', { data, err });
 });
 // sets up the development server.

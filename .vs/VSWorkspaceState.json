@@ -1,7 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Local settings (.vs)\\full-stack-project-six",
+    "\\public",
     "\\public\\css",
     "\\public\\img",
     "\\public\\js",
@@ -9,6 +9,6 @@
     "\\routes",
     "\\views"
   ],
-  "SelectedNode": "\\routes\\index.js",
+  "SelectedNode": "\\public\\js\\vendor\\what-input.js",
   "PreviewInSolutionExplorer": false
 }
