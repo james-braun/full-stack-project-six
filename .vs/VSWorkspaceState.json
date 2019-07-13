@@ -1,14 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\public\\css",
-    "\\public\\img",
-    "\\public\\js",
-    "\\public\\js\\vendor",
     "\\routes",
     "\\views"
   ],
-  "SelectedNode": "\\public\\js\\vendor\\what-input.js",
+  "SelectedNode": "\\routes\\index.js",
   "PreviewInSolutionExplorer": false
 }
